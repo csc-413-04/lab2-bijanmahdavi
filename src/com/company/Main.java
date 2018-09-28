@@ -18,7 +18,7 @@ class MatrixThreads implements Runnable{
                 for(int k = 0; k < a.length; k++) {
                     answer[i][j] = answer[i][j] + (a[i][k] * b[k][j]);
                 }
-            }
+            };
 
         }
     }
